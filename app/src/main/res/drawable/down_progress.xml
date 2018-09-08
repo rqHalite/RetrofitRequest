@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <!--<corners android:radius="5dp"/>-->
+            <!--<solid android:color="@color/black"/>-->
+            <gradient android:startColor="#ffffff"
+                android:endColor="#ffffff"/>
+            <stroke
+                android:width="0.3dp"
+                android:color="#dddddd" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip><!--可裁剪对象-->
+            <shape android:shape="rectangle">
+                <!--<corners android:radius="6dip"/>-->
+                <!--<solid android:color="@color/main_dddd"/>-->
+                <gradient android:angle="45"
+                    android:startColor="#008484"
+                    android:endColor="#008484"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
